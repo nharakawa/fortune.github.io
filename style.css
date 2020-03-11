@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Akzidenz Grotesk";
+  src: url("./fonts/Akzidenz_Grotesk/AkzidenzGrotesk_Roman.ttf") format("truetype");
+}
+
+.table {
+  color: #ff2600 ;
+  font-size: 40px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+  text-align: left;
+  border-collapse: collapse;
+  border-style: hidden;
+  width: 99vw
+  padding:20px,20px;
+}
+
+.table td {
+  border: 3px solid #ff2600 ;
+}
+
+.table th {
+  border: 3px solid #ff2600 ;
+}
+ 
+.destiny-image {
+  max-width: 15em;
+  height: 300px;
+  padding-left: 4em;
+  padding-right: 1em;
+ padding-top: 20px;
+}
+
+.manifest-image{
+  max-width: 15em;
+  height: 300px;
+  padding-left: 4em;
+  padding-right: 1em;
+ padding-top: 20px;
+}
+
+.embossed{
+  align-self: left;
+  max-width: 15em;
+  height: 200px;
+  padding-left: 4em;
+  padding-right: 1em;
+ padding-top: 20px;
+}
+
+th {
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+td {
+  vertical-align: top;
+  max-height: 100px;
+  padding-right: 5px;
+  padding-left: 20px;
+}
+
+li {
+  /* list-style-type: square; */
+  list-style: square;
+  max-width: 60%;
+}
+
+.fish-image {
+  max-width: 15em;
+  height: 300px;
+  padding-left: 4em;
+  padding-right: 1em;
+  padding-top: 20px;
+}
+
+.footnote{
+  color: #ff2600 ;
+  font-size: 14px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+  text-align: left;
+  border-collapse: collapse;
+  border-style: hidden;
+  width: 99vw
+  left: 50px;
+
+}
+
+/* Knowing The Modal (background) */
+#knowingBtn {
+  background-color: #fefefe;
+  color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+
+#knowingBtn:hover {
+  background-color: red;
+   color: white;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+
+.knowingModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top:50px;
+  left: 200px;
+  top: -200px;
+  width: 75%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* knowing Modal Content/Box */
+.knowingModal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+   color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+  padding: 50px 100px;
+}
+
+/* happiness Modal Content/Box */
+#happinessBtn {
+  background-color: #fefefe;
+  color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+
+#happinessBtn:hover {
+  background-color: red;
+   color: white;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+.happinessModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top:50px;
+  left: 200px;
+  top: -200px;
+  width: 75%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.happinessModal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+   color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+  padding: 50px 100px;
+}
+
+/* plot Modal Content/Box */
+#plotBtn {
+  background-color: #fefefe;
+  color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+
+#plotBtn:hover {
+  background-color: red;
+   color: white;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+.plotModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top:50px;
+  left: 200px;
+  top: -200px;
+  width: 75%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.plotModal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+   color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+  padding: 50px 100px;
+}
+
+/* manifest Modal Content/Box */
+#manifestBtn {
+  background-color: #fefefe;
+  color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+
+#manifestBtn:hover {
+  background-color: red;
+   color: white;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+}
+.manifestModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top:50px;
+  left: 200px;
+  top: -200px;
+  width: 75%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.manifestModal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+   color: #ff2600 ;
+  font-size: 30px;
+  font-family: "Akzidenz Grotesk", sans-serif;
+  padding: 50px 100px;
+}
+
+
+/*close button*/
+/* The knowing Close Button */
+.knowingClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.knowingClose:hover,
+.knowingClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The plot Close Button */
+.plotClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.plotClose:hover,
+.plotClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The happiness Close Button */
+.happinessClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.happinessClose:hover,
+.happinessClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The manifest Close Button */
+.manifestClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.manifestClose:hover,
+.manifestClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*!-- scrolling stuff --> */
+
+.scrollable {
+  overflow-y: scroll;
+  max-height: 85vh;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  padding-left: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ff2600 ;
+  border-radius: 10px;
+  background: #ff2600 ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+  border: 3px solid #ff2600 ;
+}
